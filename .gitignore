@@ -1,0 +1,49 @@
+# --- Données privées (ne JAMAIS versionner) ---
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+admin_token
+settings.json
+logs/
+*.log
+.env
+.env.*
+*.jks
+*.keystore
+keystore.properties
+local.properties
+google-services.json
+
+# --- Python ---
+__pycache__/
+*.pyc
+.venv/
+.venv-build/
+backend/.venv/
+.pytest_cache/
+build/
+dist/
+*.spec.bak
+
+# --- Web ---
+web/node_modules/
+backend/localsms/web/
+
+# --- Android ---
+android/.gradle/
+android/build/
+android/app/build/
+android/.idea/
+*.apk
+*.aab
+captures/
+.externalNativeBuild/
+.cxx/
+
+# --- Divers ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
